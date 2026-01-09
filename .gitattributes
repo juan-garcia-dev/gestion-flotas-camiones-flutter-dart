@@ -1,14 +1,16 @@
-android/* linguist-vendored
-ios/* linguist-vendored
-web/* linguist-vendored
-linux/* linguist-vendored
-macos/* linguist-vendored
-windows/* linguist-vendored
+# Marcar carpetas completas como "vendored" (código de terceros/configuración)
+android/**/* linguist-vendored
+ios/**/* linguist-vendored
+windows/**/* linguist-vendored
+linux/**/* linguist-vendored
+macos/**/* linguist-vendored
+web/**/* linguist-vendored
 
-*.dart linguist-detectable=true
-*.c linguist-vendored
+# Ignorar archivos específicos de CMake y C++
+*.cmake linguist-vendored
 *.cpp linguist-vendored
 *.h linguist-vendored
-*.m linguist-vendored
-*.swift linguist-vendored
-*.kt linguist-vendored
+*.c linguist-vendored
+
+# Asegurar que Dart sea detectado y sea el protagonista
+*.dart linguist-detectable=true
