@@ -6,3 +6,9 @@ macos/* linguist-vendored
 windows/* linguist-vendored
 
 *.dart linguist-detectable=true
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.m linguist-vendored
+*.swift linguist-vendored
+*.kt linguist-vendored
